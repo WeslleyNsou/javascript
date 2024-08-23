@@ -22,5 +22,7 @@ function carregar(){
         //boa noite
         img.src = 'imagens/noite.png'
         document.body.style.background = '#001934'
+
+
     }
 }
