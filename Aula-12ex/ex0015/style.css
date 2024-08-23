@@ -21,6 +21,9 @@ section{
 div{
     padding: 10px;
 }
+img{
+    margin: auto;
+}
 
 footer{
     color: white;
