@@ -5,7 +5,7 @@ function add(){
     if(num.value.length == 0){
         alert('[ERRO!] Digite um numero.')
     } else{
-        for(var con = 1; con <= 100; c++){
+        for(var con = 0; con <=100; con++){
             var n = Number(num.value)
     
             res.innerText = ``
