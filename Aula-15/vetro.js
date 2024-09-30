@@ -1,11 +1,26 @@
-let num = [1,5,6,9,8]
+var num = [4,5,6,7,8]
+//Forma mais simplificada
+for(poss in num){
+    console.log(`Apossiço ${poss} possui o valor ${num[poss]}`)
+}
+
 /*
-for (con = 0; con < num.length; con++){
-    console.log(num[con])
+Exibindo vetor com for
+
+for (var poss = 0; poss < num.length; poss++){
+    console.log(`A posição ${poss} possui o valor ${num[poss]}`)
 }
 */
-//E melhor otomizada para array
-for(let con in num){
-    console.log(num[con])
 
-}
+//Forma simples de se exibir
+console.log(num)
+
+/*
+Forma mais trabalhosa de se exibir
+
+console.log(num[0])
+console.log(num[1])
+console.log(num[2])
+console.log(num[3])
+console.log(num[4])
+*/
