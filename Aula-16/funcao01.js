@@ -6,4 +6,5 @@ function parimp(n){
     }
 }
 
+//tambem poderia ser uma variavel
 console.log(parimp(40))
